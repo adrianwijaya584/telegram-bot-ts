@@ -1,0 +1,2 @@
+add new dependency :
+https://github.com/telegraf/telegraf-ratelimit

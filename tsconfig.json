@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "Commonjs",
+    "allowJs": true,
+    "target": "es6",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "typeRoots": ["types/"]
+  },
+  "include": ["*"],
+  "exclude": ["node_modules", "build"],
+  "files": [
+    "types/types.d.ts"
+  ]
+}
