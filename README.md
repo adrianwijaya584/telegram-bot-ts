@@ -12,34 +12,32 @@
 - [Production with docker](#production-with-docker)
 
 ## Description
----
-  This repository is just an example of my project in college. You clone this repo and use it as you liked ;). README.md make still in process.
+  This repository is just a small project in my free time. You can clone this repo and use it as you liked ;).
+
 ## How To Use
----
   ### Create bot token
   first you should open this link https://t.me/botfather, then you will see this chat room.
-  <img src="https://media-assets-ggwp.s3.ap-southeast-1.amazonaws.com/2021/05/Komi-san-anime-3.jpg" />
 
-  After that use `/newbot` then insert your bot name then add username for the bot it should end with *bot*. so for the example i made Testbotforgithub_bot. Foila you've made your own bot. Please secure and store your `HTTP API Token`.
+  <img src="https://media-assets-ggwp.s3.ap-southeast-1.amazonaws.com/2021/05/Komi-san-anime-3.jpg" height="100" />
 
-  <img src="https://www.tekloggers.com/wp-content/uploads/2021/05/komi-san-anime.jpg" />
+  After that use `/newbot` then insert your bot name then add username for the bot it should end with *bot*. so for the example is `Testbotforgithub_bot`. Foila you've made your own bot. Please secure and store your `HTTP API Token`.
+
+  <img src="https://www.tekloggers.com/wp-content/uploads/2021/05/komi-san-anime.jpg" height="100" />
 
   ### clone project
   ### config environment
   ### what is next
 
 ## Development
----
 nodemon
 ## Production with PM2
----
 if you want to use pm2 for production you should install pm2 in your server or pc first using `npm i -g pm2`. Then you will see `pm2.config.json` file.
 
-<img src="https://lh4.googleusercontent.com/dV2e6N0UAhWoTp3iJAbEWuzCvr3MXrSYdoj0vH581zO2pVyDhDesvoPJzYTGnd6emJCSkfNRPC6G4yPQIU7W=w1366-h569" />
+<img src="https://firebasestorage.googleapis.com/v0/b/todo-b5c36.appspot.com/o/telebot_readme_assets%2Fpm2_files.jpg?alt=media&token=60b46a57-51f9-46bc-a083-34bc5f99eacd" width="150" />
 
 You just have to type `pm2 start pm2.config.json` in your terminal/cmd. The prod with pm2 is finished.
 
-<img src="https://lh5.googleusercontent.com/g4FzbC9pRN3roGZafiUi2xHTg0jIS0HxmE_zLcEn-vH3qpEo8m8tpRDTSbYkD8AoAdqB5Ae6oJFhXWqp1PTe=w1366-h569-rw">
+<img src="https://firebasestorage.googleapis.com/v0/b/todo-b5c36.appspot.com/o/telebot_readme_assets%2Fpm2_start.jpg?alt=media&token=22ec1854-1c88-4539-a1b3-f46454c39c48">
 
 - <h3>Tips :</h3>
 You can use `pm2 save` for saving current process list so if your server is down you just have to use `pm2 resurrect` to bring back process so you don't have to search pm2 configuration one by one.
@@ -48,5 +46,4 @@ to restart or reload you can use `pm2 restart` or `pm2 reload`
 <a href="https://stackoverflow.com/questions/44883269/what-is-the-difference-between-pm2-restart-and-pm2-reload#:~:text=The%20difference%20is%20documented%20here,at%20least%20one%20process%20running.">you can read the differnce here !</a>
 
 ## Production with Docker
----
 coming soon for docker configuration
