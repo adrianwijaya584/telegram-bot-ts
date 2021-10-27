@@ -6,5 +6,5 @@
     "build"
   ],
   "watch": ["*"],
-  "exec": "node -r ts-node/register/transpile-only ./index.ts"
+  "exec": "node -r ts-node/register/transpile-only"
 }

@@ -25,17 +25,22 @@
   <img src="https://www.tekloggers.com/wp-content/uploads/2021/05/komi-san-anime.jpg" height="100" />
 
   ### clone project
+  to clone project open terminal or CMD and type `git clone https://github.com/adrianwijaya584/telegram-bot-ts.git --branch=master folder_name`
+  you can add folder_name as you liked. ex: telebots.
   ### config environment
+  After cloning the project you will see 
   ### what is next
 
 ## Development
-nodemon
+you need nodemon `npm i -g nodemon`
 ## Production with PM2
-if you want to use pm2 for production you should install pm2 in your server or pc first using `npm i -g pm2`. Then you will see `pm2.config.json` file.
+If you want to use pm2 for production you should install pm2 in your server or pc first using `npm i -g pm2`. Then you will see `pm2.config.json` file.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/todo-b5c36.appspot.com/o/telebot_readme_assets%2Fpm2_files.jpg?alt=media&token=60b46a57-51f9-46bc-a083-34bc5f99eacd" width="150" />
 
-You just have to type `pm2 start pm2.config.json` in your terminal/cmd. The prod with pm2 is finished.
+Typescript can't run plainly on node js so we have to build it into js file so type `npm run build` and you will see build folder generated in the project.
+
+Then type `pm2 start pm2.config.json` in your terminal/cmd. The prod with pm2 is finished.
 
 <img src="https://firebasestorage.googleapis.com/v0/b/todo-b5c36.appspot.com/o/telebot_readme_assets%2Fpm2_start.jpg?alt=media&token=22ec1854-1c88-4539-a1b3-f46454c39c48">
 
